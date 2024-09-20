@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    height: 570px;
+    background: hsl(216, 50%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 20px 70px #001;
+}
+
+.c_content{
+    width: 90%;
+}
+
+.nft_img{
+    width: 100%;
+    height: 290px;
+    border-radius: 5px;
+    
+}
+
+.equilibrium{
+    font-family: Outfit;
+    margin-top: 15px;
+    font-size: 23px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    transition: 0.5s;
+}
+.equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+}
+.info{
+    font-family: Outfit;
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+}
+
+.avatar{
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.price_and_time{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+.etherium{
+    margin-right: 5px;
+}
+
+.time{
+    display: flex;
+    align-items: flex-start;
+    color: hsl(215, 51%, 70%);
+}
+.line{
+    width: 100%;
+    height: 2px;
+    margin-top: 25px;
+    background: hsl(215, 32%, 27%);
+}
+
+.creator{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    color: #fff;
+    transition: 0.5s;
+}
+.creator:hover{
+    color: hsl(178, 100%, 50%);
+}
+span{
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.top{
+    position: relative;
+}
+
+.view{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+.back_view{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.493);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.8s;
+}
+.back_view:hover{
+    opacity: 1;
+}
